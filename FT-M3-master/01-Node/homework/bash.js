@@ -1,9 +1,9 @@
-//    // Output un prompt
+//     Output un prompt
 //    process.stdout.write('prompt > ');//es un codigo como en pytho, que me va a escuchar  lo que escriba despues del prompt
 
-//    //y 
+//    y 
 
-//    // El evento stdin 'data' se dispara cuando el user escribe una línea
+//    * El evento stdin 'data' se dispara cuando el user escribe una línea
 //    process.stdin.on('data', function (data) { //el on, es como un eventlistener, escucha lo que escribi en la linea 2 en el process
 //      var cmd = data.toString().trim(); // remueve la nueva línea o un espacio
 //      process.stdout.write('You typed: ' + cmd);
@@ -36,15 +36,15 @@
     }
     // process.stdout.write('\nprompt > ');
     //  if(cmd === 'date') {
-    //    //process.stdout.write(Date());  
+    //   * process.stdout.write(Date());  
     //    commands[cmd]()
     //  }
     //  if(cmd === 'pwd') {
-    //    //acá deneos einvestigar en el objeto proces, existn dos maneras
-    //    //process.cwd()--->me da el path de la ruta actual por el cuale stoy parado
+    //    *acá deneos einvestigar en el objeto proces, existn dos maneras
+    //    *process.cwd()--->me da el path de la ruta actual por el cuale stoy parado
        
        
-    //    //process.stdout.write(process.cwd())
+    //    *process.stdout.write(process.cwd())
 
 
     //    commands[cmd]()
